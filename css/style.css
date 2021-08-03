@@ -404,7 +404,7 @@ header {
 
 .portfolio {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
 }
 
 .portfolio__item {
@@ -432,7 +432,6 @@ header {
 /* Resume */
 
 .section__title--resume {
-  /*color: var(--clr-accent); */
   position: relative;
   text-align: center;
 }
@@ -445,13 +444,6 @@ header {
   margin: 0.5em auto 1em;
   background: var(--clr-light);
   opacity: 0.25;
-}
-
-
-.section__title--apps {
-  /*color: var(--clr-accent); */
-  position: relative;
-  text-align: center;
 }
 
 /* footer */
@@ -511,4 +503,9 @@ header {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.section__title--apps {
+  position: relative;
+  text-align: center;
 }
